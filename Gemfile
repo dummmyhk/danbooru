@@ -44,6 +44,8 @@ gem 'activerecord-hierarchical_query'
 gem 'pundit'
 gem 'mail'
 gem 'nokogiri'
+gem 'bcrypt_pbkdf'
+gem 'ed25519', '< 2.0'
 
 group :production, :staging do
   gem 'unicorn', :platforms => :ruby
